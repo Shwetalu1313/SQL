@@ -1,0 +1,39 @@
+# Ignore build output files
+/build/
+/dist/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Ignore sensitive or environment-specific files
+config.ini
+secrets.txt
+.env
+
+# Ignore dependency directories
+/node_modules/
+/bower_components/
+
+# Ignore log files
+*.log
+
+# Ignore compiled code or binaries
+*.class
+*.dll
+*.exe
+
+# Ignore archives and compressed files
+*.zip
+*.tar.gz
+
+# Ignore temporary files
+*.tmp
+
+# Ignore macOS-specific files
+.DS_Store
