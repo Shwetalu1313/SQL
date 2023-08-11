@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" modified="2023-08-11T04:05:18.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="NkOFexKv2WshaWL1cCF0" version="21.6.8" type="github">
+  <diagram name="Page-1" id="DdOD5S8_LzWi4t1WUnOQ">
+    <mxGraphModel dx="948" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ino41JmfUW6hvXLDRT1q-1" target="Ino41JmfUW6hvXLDRT1q-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-10" value="encode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ino41JmfUW6hvXLDRT1q-6" vertex="1" connectable="0">
+          <mxGeometry x="0.2925" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-1" value="body data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ino41JmfUW6hvXLDRT1q-2" target="Ino41JmfUW6hvXLDRT1q-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-2" value="body json" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=22;" parent="1" vertex="1">
+          <mxGeometry x="330" y="97.5" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-4" value="data base" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="1" vertex="1">
+          <mxGeometry x="720" y="97.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ino41JmfUW6hvXLDRT1q-5" target="Ino41JmfUW6hvXLDRT1q-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-9" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ino41JmfUW6hvXLDRT1q-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ino41JmfUW6hvXLDRT1q-5" value="mysql server" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" parent="1" vertex="1">
+          <mxGeometry x="540" y="90" width="88.55" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="SJJ8OLSrJIvi54_sfDe7-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;how to prevent reloading&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
